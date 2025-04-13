@@ -49,6 +49,7 @@ export default class GameScene extends Phaser.Scene {
     this.physics.add.collider(this.player, this.npcs);
     this.bgMusic = this.sound.add('bg_music', { loop: true, volume: 0.5 });
     this.bgMusic.play();
+    this.scale.refresh();
   }
   getSpawnFromTileIndex(tileIndex) {
     const key = this.mapKey + '_spawn';

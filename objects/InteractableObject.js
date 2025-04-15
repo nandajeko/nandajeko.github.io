@@ -1,4 +1,3 @@
-// InteractableObject.js
 export default class InteractableObject extends Phaser.GameObjects.Sprite {
   constructor(scene, x, y, texture, startFrame, animA, mode = 'toggle', frameIndex = 2, animB = null, animAEndFrame = null, animBEndFrame = null) {
     super(scene, x, y, texture, startFrame);

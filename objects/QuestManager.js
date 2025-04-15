@@ -1,4 +1,3 @@
-// QuestManager.js
 export default class QuestManager {
   constructor(scene) {
     this.scene = scene;

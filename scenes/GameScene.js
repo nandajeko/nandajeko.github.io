@@ -1,4 +1,3 @@
-// GameScene.js
 import Player from '../objects/Player.js';
 import VirtualJoystick from '../objects/VirtualJoystick.js';
 import NPC from '../objects/NPC.js';

@@ -1,4 +1,3 @@
-// NPC.js
 export default class NPC extends Phaser.Physics.Arcade.Sprite {
   constructor(scene, x, y, type = 'normal', name = 'npc', patrolSize = 32) {
   super(scene, x, y, `${name}_idle`);
